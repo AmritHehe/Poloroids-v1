@@ -1,0 +1,12 @@
+
+---------------------------------
+-- After Effects Encoding Loop 
+---------------------------------
+
+AfterCodecs 1.3.4
+
+Exporting desc : 	 H264 YouTube S3
+Exporting sound : 	 1
+Exporting alpha : 	 1
+
+Height cannot be odd ! (Pixel Format : YUV420)
