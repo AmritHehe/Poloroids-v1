@@ -531,10 +531,13 @@ document.body.style.overflow = 'hidden';
 setTimeout(() => {
   document.body.style.overflow = 'auto';
 }, 11000); // Adjust 5000ms to the duration of your animations
-window.addEventListener('beforeunload', function () {
+window.addEventListener('load', function () {
   window.scrollTo(0, 0);
 });
 
-
+// Ensure scroll doesn't persist across refreshes
+window.addEventListener('beforeunload', function () {
+  window.scrollTo(0, 0);
+});
 
 
