@@ -377,7 +377,7 @@ t2.to("#eight-box",{
   right:'-=150px',
   top: "115%",
   scale : "1.2",
-  ease : "power1.inOut"
+  // ease : "power1.inOut"
   // rotate: 45,  ease: "power2.inOut"
 
   // ease: "SlowMo.ease.config(0.01, 0.1, true)"
@@ -392,7 +392,7 @@ t2.to("#eight-box" , {
   // rotate : "3deg",
   rotate : "0.3deg",
   scale : "0.3",
-  ease : "power1.inOut"
+  // ease : "power1.inOut"
 })
 t2.to("#third-page" , { 
   scale : 0.7
