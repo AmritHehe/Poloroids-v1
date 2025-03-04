@@ -541,3 +541,4 @@ window.addEventListener('beforeunload', function () {
 });
 
 
+window.history.scrollRestoration = "manual"; 
